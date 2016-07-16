@@ -43,30 +43,3 @@ For bonus points:  make it so that the user can also write
 to the lock file, for debugging purposes, when they're
 "inside" the context manager...
 '''
-
-
-
-from datetime import datetime
-
-def my_program():
-    main_screen_turn_on()
-    if somebody_set_us_up_the_bomb():
-        take_off_every_zig()
-
-def main_screen_turn_on():
-    print('\n'.join(['*' * 80] * 25))
-
-
-
-def somebody_set_us_up_the_bomb():
-    if datetime.now().microsecond % 7 == 0:
-        return True
-    return False
-
-
-def take_off_every_zig():
-    for i in range(1, 10001):
-        if datetime.now().microsecond % 42 == 0:
-            raise Exception('all your base!')
-        print('Go {}! '.format(i), end='')
-
