@@ -7,7 +7,7 @@ features of Python, and help you to write more "Pythonic" code...
 
 # Python challenges in this repo
 
-[Magic methods and Duck typing](magic_methods.py)  - learn how to make your classes Pythonic using magic methods like `__len__` and more
+[Magic methods and Duck typing](magic_methods.py)  - learn how to make your classes Pythonic using magic methods like `__len__` and more (for guidance see Rafe Kettler's excellent doc at http://www.rafekettler.com/magicmethods.html)
 
 [Decorators](decorators.py) - decorators, a pretty way of transforming functions using other functions. functional programming!  functions.
 
