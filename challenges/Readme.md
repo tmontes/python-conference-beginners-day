@@ -7,13 +7,13 @@ features of Python, and help you to write more "Pythonic" code...
 
 # Python challenges in this repo
 
-[magic methods and duck typing](magic_methods.py)  - learn how to make your classes Pythonic using magic methods like `__len__` and more
+[Magic methods and Duck typing](magic_methods.py)  - learn how to make your classes Pythonic using magic methods like `__len__` and more
 
-[decorators](decorators.py) - decorators, a pretty way of transforming functions using other functions. functional programming!  functions.
+[Decorators](decorators.py) - decorators, a pretty way of transforming functions using other functions. functional programming!  functions.
 
-[context managers](context_managers.py) - aka the `with` statement.  What's it for, and how does it help to make your code look nicer?
+[Context managers](context_managers.py) - aka the `with` statement.  What's it for, and how does it help to make your code look nicer?
 
-[generators](generators.py) - more efficient iterators with python and the `yield` statement.
+[Generators](generators.py) - more efficient iterators with python and the `yield` statement.
 
 [The Game of Life](life.md) - a programming classic.  Try it out using OO and functional paradigms in Python.
 
@@ -35,9 +35,10 @@ and lots more...
 
 # Other resources
 
+* For a nice tutorial and challenges on list, dict and set comprehensions see https://www.smallsurething.com/list-dict-and-set-comprehensions-by-example/
 * If you fancy something mathematical, try out Project Euler or the Matasano Crypto Challenges
 * If you fancy learning TDD and good web development practices, check out www.obeythetestinggoat.com
 * Python Epiphanies! http://swilliams.ca/Python-Epiphanies.pdf 
-* an excellent intermediate book:  Fluent Python http://shop.oreilly.com/product/0636920032519.do  (use code AUTHD)
-* head on back to the tutorials page for some [science resources](../tutorials-and-challenges.md#for-sciencey-people)
-
+* An excellent intermediate book:  Fluent Python http://shop.oreilly.com/product/0636920032519.do  (use code AUTHD)
+* For great fun, solving riddles with Python, checkout http://www.pythonchallenge.com -- beware, you may become addicted!
+* Head on back to the tutorials page for some [science resources](../tutorials-and-challenges.md#for-sciencey-people)
