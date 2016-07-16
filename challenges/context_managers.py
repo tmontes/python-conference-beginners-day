@@ -42,4 +42,9 @@ even if the function raises an exception.
 For bonus points:  make it so that the user can also write
 to the lock file, for debugging purposes, when they're
 "inside" the context manager...
+
+Try to implement it with a custom class and the appropriate
+__magic__ methods. Then checkout contextlib in the standard
+library and try to build your context manager with the 
+contextlib.contextmanager decorator.
 '''
